@@ -1,6 +1,3 @@
-
-
-
 📊 Projeto de Análise do E-commerce Brasileiro - Olist
 
 🧩 Visão Geral
