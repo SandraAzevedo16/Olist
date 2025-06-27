@@ -1,4 +1,4 @@
-![RET  PROJETO FINAL - SANDRA_page-0002](https://github.com/user-attachments/assets/1b15a438-f1ae-4119-b1cc-acee363f3905)
+
 
 
 📊 Projeto de Análise do E-commerce Brasileiro - Olist
