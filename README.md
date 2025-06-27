@@ -14,31 +14,19 @@ Este projeto teve como objetivo a criação de um painel interativo no Power BI 
 
 🛠️ Etapas do Projeto
 1. Entendimento e Exploração dos Dados
-O primeiro passo foi realizar uma análise exploratória dos seguintes arquivos disponíveis:
-- olist_orders_dataset.csv
-- olist_order_items_dataset.csv
-- olist_customers_dataset.csv
-- olist_sellers_dataset.csv
-- olist_order_payments_dataset.csv
-- olist_order_reviews_dataset.csv
-- olist_products_dataset.csv
-- olist_geolocation_dataset.csv
 
 💡 Principais insights iniciais:
+- A maioria dos pedidos estava concentrada nas regiões Sudeste e Sul.
+- O tempo médio de entrega variava bastante entre os estados.
+- Avaliações negativas estavam fortemente associadas a atrasos.
 
-A maioria dos pedidos estava concentrada nas regiões Sudeste e Sul.
-O tempo médio de entrega variava bastante entre os estados.
-Avaliações negativas estavam fortemente associadas a atrasos.
-
-2. Limpeza e Modelagem dos Dados
-Utilizei o Power Query (ETL) no Power BI para:
+2. Limpeza e Modelagem dos Dados - Utilizei o Power Query (ETL) no Power BI para:
 - Tratar dados ausentes e duplicados.
 - Unificar tabelas por chaves primárias e estrangeiras (ex: order_id, customer_id).
 - Criar colunas calculadas como tempo de entrega, ticket médio e tempo até avaliação.
 - Modelar relacionamentos para facilitar análises dinâmicas.
 
-3. Criação de Protótipo no Figma
-Antes de desenvolver o painel, projetei um protótipo interativo no Figma para planear a experiência do usuário e o layout das visualizações.
+3. Criação de Protótipo no Figma: Antes de desenvolver o painel, projetei um protótipo interativo no Figma para planear a experiência do usuário e o layout das visualizações.
 
 📌 Componentes do protótipo:
 - Navegação lateral com filtros por região, data e status do pedido.
@@ -46,29 +34,22 @@ Antes de desenvolver o painel, projetei um protótipo interativo no Figma para p
 - Indicadores-chave de desempenho (KPIs) no topo.
 - Gráficos temporais para monitorar vendas, avaliações e pagamentos.
 
-4. Desenvolvimento do Painel Interativo no Power BI
-Com base no protótipo, desenvolvi um painel funcional contendo:
+4. Desenvolvimento do Painel Interativo no Power BI - Com base no protótipo, desenvolvi um painel funcional contendo:
 
 📆 Análise temporal: vendas por mês/ano, sazonalidade, crescimento.
-
 🛍️ Análise por categoria de produto: ticket médio, volume de vendas, avaliações.
-
 📍 Análise geográfica: mapa com filtros por estado e cidade.
-
 🚚 Logística: tempo médio de entrega, atrasos por estado.
-
 💳 Pagamentos: formas de pagamento mais utilizadas.
-
 ⭐ Satisfação do cliente: média de avaliações por categoria e vendedor.
 
-📈 Resultados e Insights Estratégicos
-Produtos de alta performance: categorias como "cama, mesa e banho" e "beleza" mostraram alto volume de vendas e boas avaliações.
 
-Problemas logísticos: estados do Norte e Nordeste apresentaram os maiores tempos de entrega.
 
-Avaliações negativas correlacionadas com atrasos, reforçando a importância da logística.
-
-Cartão de crédito como principal meio de pagamento (mais de 70%).
+📈 Resultados e Insights Estratégicos:
+- Produtos de alta performance: categorias como "cama, mesa e banho" e "beleza" mostraram alto volume de vendas e boas avaliações.
+- Problemas logísticos: estados do Norte e Nordeste apresentaram os maiores tempos de entrega.
+- Avaliações negativas correlacionadas com atrasos, reforçando a importância da logística.
+- Cartão de crédito como principal meio de pagamento (mais de 70%).
 
 🔧 Ferramentas Utilizadas:
 - Power BI (ETL, modelagem, visualização)
